@@ -17,9 +17,9 @@ public class App
         System.out.print( "What is the second number? " );
         String num2 = scnN.next();
         int number2 = Integer.parseInt(num2);
-        System.out.println( num1 +" + "+ num2 +" = "+ (number1+number2) );
-        System.out.println( num1 +" - "+ num2 +" = "+ (number1-number2) );
-        System.out.println( num1 +" * "+ num2 +" = "+ (number1*number2) );
-        System.out.print( num1 +" / "+ num2 +" = "+ (number1/number2) );
+        System.out.print( num1 +" + "+ num2 +" = "+ (number1+number2) +
+                "\n"+ num1 +" - "+ num2 +" = "+ (number1-number2) +
+                "\n"+ num1 +" * "+ num2 +" = "+ (number1*number2) +
+                "\n"+ num1 +" / "+ num2 +" = "+ (number1/number2));
     }
 }
